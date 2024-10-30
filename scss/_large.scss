@@ -1,0 +1,14 @@
+header, nav, main {
+    max-width: 960px;
+    margin: auto;
+}
+
+/* NAVIGATION STUFF GOES HERE  */
+
+
+.allcards {
+    section {
+        flex-basis: calc(24% - (($gutter*2)/4));
+
+    }
+}

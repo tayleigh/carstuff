@@ -1,0 +1,49 @@
+/* NAVIGATION STUFF GOES HERE  */
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    a {
+        text-decoration: none;
+        color: $accentColor;
+        font-size: 1rem;
+    }
+}
+
+
+#myButton {
+    display: none;
+}
+#theNav {
+    grid-template-rows: 1fr;
+}
+
+#theNav ul, #theNav ul.open {
+    display: flex;
+    li a {
+        padding: .4rem 1rem;
+        border: none;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+}
+
+#navWrapper {
+    border-bottom: 1px solid $greyColor;
+}
+
+
+
+.allcards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gutter;
+    section {
+        flex-basis: calc(50% - ($gutter/2));
+
+    }
+}
+
