@@ -634,6 +634,10 @@ footer a {
     max-width: 960px;
     margin: auto;
   }
+  .reviewWrapper h2, .reviewWrapper #cards {
+    max-width: 960px;
+    margin: auto;
+  }
   /* NAVIGATION STUFF GOES HERE  */
   .allcards section {
     flex-basis: calc(24% - 5px);
